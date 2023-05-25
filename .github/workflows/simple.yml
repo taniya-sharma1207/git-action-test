@@ -7,7 +7,7 @@
     runs-on: macos-latest
     steps: 
       - name: exho a string
-        run: echo "hello world this is 2nd commit"
+        run: echo "hello world this is 3rd commit"
       - name: multiline script
         run: |
           node -v

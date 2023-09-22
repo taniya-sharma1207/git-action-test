@@ -8,6 +8,10 @@ app.get('/', function (req, res) {
 app.get('/will', function (req, res) {
     res.send('{ "response": "Hello World" }');
 });
+app.get('/testCheck', function (req, res) {
+    res.send('{ "response": "this is for merge results" }');
+});
+
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
 });

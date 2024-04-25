@@ -30,5 +30,3 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/clockbox:latest
-      - name: Hello Message
-        run: echo "Hello, World!"
